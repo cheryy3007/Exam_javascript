@@ -65,7 +65,7 @@ checkButton.style.transition = "all 0.3s"; // Плавное изменение
 // При нажатии на кнопку, увеличиваем её и показываем результат внутри
 checkButton.addEventListener('click', () => {
   checkButton.style.transform = 'scale(1.2)'; // Увеличиваем кнопку
-  checkButton.textContent = `Результат: ${result}`; // Показываем результат на кнопке
+  checkButton.textContent = `Ответ: ${result}`; // Показываем результат на кнопке
 });
 
 // Добавляем блоки и кнопку в калькулятор
